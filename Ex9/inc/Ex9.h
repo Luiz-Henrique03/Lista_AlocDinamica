@@ -1,0 +1,1 @@
+void PreencheVetor(int *vetor);

@@ -1,0 +1,1 @@
+string ImprimesemVogal(string Palavra, string *ptr);
