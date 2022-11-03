@@ -1,3 +1,7 @@
+/*Faça um programa que leia uma quantidade qualquer de numeros armazenando-os na ´
+memoria e pare a leitura quando o usuario entrar um numero negativo. Em seguida, ´
+imprima o vetor lido. Use a função REALLOC.*/
+
 #include "Ex9.h"
 #include <gtest/gtest.h>
 
