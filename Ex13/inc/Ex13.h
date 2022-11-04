@@ -1,0 +1,1 @@
+int estaContido(int elemento, int **matriz, int numLin, int numCol);
