@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Ex4.h"
 #include <string>
 
 using namespace std;
@@ -18,11 +19,3 @@ string ImprimesemVogal(string Palavra, string *ptr){
 
 }
 
-int main(){
-    string *ptr = new string();
-    string Palavra = "Computador";
-    ptr = &Palavra;
-
-    cout << ImprimesemVogal(Palavra,ptr) << endl;
-    
-}

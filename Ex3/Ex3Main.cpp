@@ -3,20 +3,20 @@ dinamica de memoria. Em seguida, leia do usuário seus valores e mostre quantos 
 numeros sao pares e quantos são ımpares.*/
 
 #include <iostream>
-#include "Ex2.h"
+#include "Ex3.h"
 
 using namespace std;
 
 
 int main(){
-    const int TAMANHO = 6
+    const int TAMANHO = 6;
     int *vetor = new int(TAMANHO),
          QtdImpar = 0,
          QtdPar = 0;
 
     Preenche(vetor);
     ListaVetor(vetor);
-    QuantidadeImparPar(vetor,&QtdImpar,QtdPar);
+    QuantidadeImparPar(vetor,&QtdImpar,&QtdPar);
 
     cout << QtdImpar << " " << QtdPar;
 
