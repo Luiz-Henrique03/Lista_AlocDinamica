@@ -10,9 +10,8 @@ tes para manipular a matriz:
 (e) Pedir para recuperar o nome contido em uma linha da matriz;
 */
 
-
-
 #include <gtest/gtest.h>
+#include <string>
 #include "Ex19.h"
 
 TEST(testSubstituiNome, testSubstituiNome){

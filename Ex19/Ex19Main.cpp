@@ -45,7 +45,7 @@ int main(){
             case 3:
                 int substitui = 0;
                 cout << "Digite o indice que voce deseja excluir: " << endl;
-                 cin >> substitui;
+                cin >> substitui;
                 Substitui(nomes,substitui);
                break;
             default:
