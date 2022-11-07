@@ -37,10 +37,11 @@ void criaMatriz(int **matriz,int **matriz1,int a, int b, int c, int d){
 }
 
 float Produto(int **matriz,int **matriz1, int **matrizprod){
-for(int i = 0; i < 2; i++){
+    float produtoTotal;
+    for(int i = 0; i < 2; i++){
         for(int j = 0; j < 2; j++){
-            MatrizProd[i][j] = Matriz[i][j] * Matriz1[i][j];
-            produtoTotal += Matriz[i][j] * Matriz1[i][j];
+            matrizprod[i][j] = matriz[i][j] * matriz1[i][j];
+            produtoTotal += matriz[i][j] * matriz1[i][j];
         }
     }
 }
@@ -62,7 +63,7 @@ int main(){
     
 
     criaMatriz(Matriz,Matriz1,a,b,c,d);
-    float produtoTotal = Produto(Matriz, Matriz1);
+    float produtoTotal = Produto(Matriz, Matriz1, MatrizProd);
 
     
 
