@@ -22,7 +22,7 @@ int main(){
     CriaMatriz(matriz, N, M);
     Maiores(matriz,N,M,maiores);
 
-    cout << maiores[0] << " " <<maiores[1] << " " <<maiores[2];
+    cout << maiores[0] << " " << maiores[1] << " " << maiores[2];
 
 
 

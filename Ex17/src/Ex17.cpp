@@ -13,7 +13,7 @@ for(int i = 0; i < vetor.size(); i++){
         break;
     }
     if(i == (vetor.size() - 1)){
-            vetor.resize(vetor.size() + 10);
+        vetor.resize(vetor.size() + 10);
     }
   }
 }

@@ -5,7 +5,7 @@ ano de nascimento.
 armazenados
 (c) O programa devera alocar dinamicamente a quantidade necessária de memoria 
 para armazenar os registros dos alunos.
-(d) O programa devera pedir ao usuário que entre com as informaçõees dos alunos. ˜
+(d) O programa devera pedir ao usuário que entre com as informaçõees dos alunos.
 (e) Ao final, mostrar os dados armazenados e liberar a memoria alocada.*/
 
 #include <iostream>

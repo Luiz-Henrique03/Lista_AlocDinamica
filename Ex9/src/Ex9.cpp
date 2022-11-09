@@ -5,11 +5,13 @@
 using namespace std;
 
 void PreencheVetor(vector<int>& vetor){
-  int num,
+     int num,
      cont = 0;
      
-   vector<int>vetor;
-   cout << "Digite valores ou um numero negativo  para sair " <<endl;
+    vector<int>vetor;
+    cout << "Digite valores ou um numero negativo  para sair " <<endl;
+
+
     while(num > 0){
         cin >>num;
         vetor[cont] = num;

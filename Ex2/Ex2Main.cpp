@@ -8,7 +8,7 @@ using namespace std;
 
 
 int main(){
-    int TAMA
+    int TAMANHO;
     int *vetor = new int(TAMANHO);
 
     Preenche(vetor);
