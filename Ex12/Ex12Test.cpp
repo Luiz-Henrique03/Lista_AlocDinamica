@@ -15,6 +15,7 @@ usuario para entrar com as informações de cada produto ˜
 
 #include <iostream>
 #include "Ex12.h"
+#include <gtest/gtest.h>
 #include <string>
 
 using namespace std;

@@ -23,7 +23,4 @@ TEST(testSubstituiNome, testSubstituiNome){
 
    Substitui(nomes,1);
    EXPECT_EQ(nomes[1],NomeEsperado);
-
-
-
 }

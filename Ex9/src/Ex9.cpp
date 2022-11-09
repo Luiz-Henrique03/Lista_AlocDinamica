@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void PreencheVetor(vector<int>& vetor){
+void PreencheVetor(vector<int> &vetor){
      int num,
      cont = 0;
      

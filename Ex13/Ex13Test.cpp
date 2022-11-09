@@ -24,8 +24,8 @@ TEST(testEstaContido, testEstaContido){
 		matriz[i] = new int[numCol];
 	}
 
-       cout << "Digite o elemento que deseja procurar na matriz: "<< endl;
-		cin >> ElementoaserProcurado;
+    cout << "Digite o elemento que deseja procurar na matriz: "<< endl;
+	cin  >> ElementoaserProcurado;
 		
 	EXPECT_EQ(estaContido(j, matriz, numLin, numCol), EstaContido);
 

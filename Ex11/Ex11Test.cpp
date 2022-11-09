@@ -10,6 +10,7 @@ para armazenar os registros dos alunos.
 
 #include <iostream>
 #include "Ex11.h"
+#include <gtest/gtest.h>
 #include <string>
 
 using namespace std;
