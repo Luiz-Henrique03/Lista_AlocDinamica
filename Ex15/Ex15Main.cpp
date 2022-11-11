@@ -24,6 +24,10 @@ int main(){
 
     cout << maiores[0] << " " << maiores[1] << " " << maiores[2];
 
+    if (N) delete [] matriz[0];
+    delete [] matriz;
+    delete [] maiores;
+
 
 
 }

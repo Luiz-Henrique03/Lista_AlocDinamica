@@ -15,6 +15,7 @@ void CriaMatriz(int **matriz, int numLin, int numCol){
 			 cin >> matriz[i][j];
 		}
 	}
+
 }
 
 void Maiores(int **matriz, int numLin, int numCol, int *maiores){
@@ -29,6 +30,8 @@ void Maiores(int **matriz, int numLin, int numCol, int *maiores){
               }
         }
     }
+
+
 }
 
 

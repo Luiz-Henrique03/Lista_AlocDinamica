@@ -38,5 +38,7 @@ int main(){
 
     cout << arrayProdutos->MaiorPreco(arrayProdutos,n);
     cout << arrayProdutos->MaiorEstoque(arrayProdutos,n);
+
+    delete [] arrayProdutos;
 }
 

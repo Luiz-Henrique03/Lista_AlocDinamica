@@ -31,4 +31,5 @@ TEST(testAluno,testAluno){
     EXPECT_EQ(arrayAlunos[0].getNome(), nome);
     EXPECT_EQ(arrayAlunos[0].getMatricula(),Matricula);
     EXPECT_EQ(arrayAlunos[0].getAnoNascimento(), AnoNascimento);
+
 }

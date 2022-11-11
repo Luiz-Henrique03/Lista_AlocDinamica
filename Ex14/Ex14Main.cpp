@@ -23,6 +23,7 @@ int main(){
 	CriaMatriz(matriz,numLin, numCol);
 	ImprimeMatriz(matriz,numLin,numCol);
 
-
+    if (numLin) delete [] matriz[0];
+    delete [] matriz;
 
 }

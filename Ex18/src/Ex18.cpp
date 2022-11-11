@@ -6,6 +6,7 @@ using namespace std;
 
 void Inicializavetor1024Kbytes(int *vet){
       vet = new int[256];
+
 }
 
 void InicializaMatriz(int **matriz){
@@ -13,10 +14,12 @@ void InicializaMatriz(int **matriz){
     	for(int i =0; i < 10; i++){
 		matriz[i] = new int[10];
 	} 
+
 }
 
 void InicializaProdutos(Produto *arrayProdutos){
      arrayProdutos = new Produto[30];
+
 }
 
 void InicializaChar(char **texto){
@@ -24,5 +27,6 @@ void InicializaChar(char **texto){
     for(int i =0; i < 100; i++){
 		texto[i] = new char[80];
 	} 
+
 }
 

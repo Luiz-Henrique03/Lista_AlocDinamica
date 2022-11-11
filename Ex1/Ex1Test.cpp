@@ -15,4 +15,6 @@ TEST(testVetor, testVetor){
     Preenche(vet);
     EXPECT_EQ(*vet, *vetorEsperado);
 
+    delete [] vet;
+
 }

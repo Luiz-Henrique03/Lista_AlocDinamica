@@ -22,5 +22,8 @@ int main(){
     cout << "-------------------" << endl;
     dezUltimos = PreencheDezUltimos(vetor);
     
+    delete [] vetor;
+    delete [] dezUltimos;
+    delete [] dezPrimeiros;
 
 }

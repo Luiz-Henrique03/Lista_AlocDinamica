@@ -26,6 +26,9 @@ int main(){
     posicao = new Coordenadas[tam];
     PreencheCoordenadas(posicao,tam);
     CalculaDistancia(posicao,tam,Distancias);
+
+
+    delete  posicao;
     
 
 }

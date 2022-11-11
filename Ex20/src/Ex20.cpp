@@ -27,4 +27,6 @@ float CalculaDistancia(Coordenadas *posicao, int tam, float *Distancias){
     }
 
     return Distancia;
+
+    delete posicao;
 }

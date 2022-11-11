@@ -28,4 +28,13 @@ int main(){
              cout << transposta[i][j]; 
         }
     }
+
+	if (numLin) delete [] matriz[0];
+    delete [] matriz;
+
+
+    if (numLin) delete [] transposta[0];
+    delete [] transposta;
+   
+   
 }

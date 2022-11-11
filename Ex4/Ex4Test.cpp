@@ -14,4 +14,6 @@ int main(){
     string PalavraSemVogal = ImprimesemVogal(Palavra,ptr);
     
     EXPECT_EQ(PalavraSemVogal, PalavraSemvogalEsperada);
+
+    delete  ptr;
 }

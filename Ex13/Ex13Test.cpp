@@ -29,4 +29,9 @@ TEST(testEstaContido, testEstaContido){
 		
 	EXPECT_EQ(estaContido(j, matriz, numLin, numCol), EstaContido);
 
+	delete [] matriz;
+
+	if (numLin) delete [] matriz[0];
+    delete [] matriz;
+
 }

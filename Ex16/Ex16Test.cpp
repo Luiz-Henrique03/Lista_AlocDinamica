@@ -14,4 +14,7 @@ TEST(testTransposta, testTransposta){
 
     Transposta(matriz,3,2,transposta);
     EXPECT_EQ(**transposta, **TranspostaEsperada);
+
+
+    delete  transposta;
 }

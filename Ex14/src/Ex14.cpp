@@ -15,6 +15,7 @@ void CriaMatriz(int **matriz, int numLin, int numCol){
 			 cin >> matriz[i][j];
 		}
 	}
+
 }
 
 void ImprimeMatriz(int **matriz, int numLin, int numCol){
@@ -24,5 +25,6 @@ void ImprimeMatriz(int **matriz, int numLin, int numCol){
 		cout << matriz[i][j] << endl;
 	  }
 	}
+
 }
 

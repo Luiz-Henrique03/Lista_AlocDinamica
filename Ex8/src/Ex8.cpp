@@ -19,6 +19,8 @@ int* PreencheDezPrimeiros(int *vetor){
 
     return dezPrimeiros;
 
+    delete  vetor;
+
 }
 
 
@@ -30,5 +32,7 @@ int* PreencheDezUltimos(int *vetor){
     }
 
     return dezUltimos;
+
+    delete  vetor;
 
 }

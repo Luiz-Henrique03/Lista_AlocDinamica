@@ -20,4 +20,8 @@ int main(){
 
     cout << QtdImpar << " " << QtdPar;
 
+    delete [] vetor;
+
+    return 0;
+
 }

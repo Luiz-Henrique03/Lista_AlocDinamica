@@ -32,9 +32,11 @@ int main() {
 	cin>>j;
 		
 	if(estaContido(j, matriz, numLin, numCol)){
-		cout << "O elemento "<< j <<"existe na matriz.\n";
+		cout << "O elemento "<< j <<" existe na matriz.\n";
 	}else{
 		cout << "O elemento "<< j <<" nao existe na matriz.\n";
 	}
-			
+
+    if (numLin) delete [] matriz[0];
+    delete [] matriz;
 } 

@@ -16,4 +16,6 @@ TEST(testQtdMultiplo,testQtdMultiplo){
    PreencheVetor(vetor,TAMANHO);
    EXPECT_EQ(QtdMultiplo(vetor,TAMANHO,X), QtdMultiploEsperado);
 
+   delete [] vetor;
+
 }

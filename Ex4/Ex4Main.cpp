@@ -15,5 +15,7 @@ int main(){
     ptr = &Palavra;
 
     cout << ImprimesemVogal(Palavra,ptr) << endl;
+
+    delete  ptr;
     
 }

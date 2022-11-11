@@ -17,11 +17,14 @@ void VerificaAcertos(int *NumLoteria,int *NumBilhete,int TAMANHO, int *Acertos, 
             *Acertos = NumLoteria[i];
         }
     }
+
+
 }
 
 void Imprime(int *Acertos, int certos){
     for(int i = 0; i < certos; i++){
         cout << Acertos[i] <<endl;
     }
+
 }
 

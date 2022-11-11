@@ -8,6 +8,7 @@ void PreencheNomes(string *nomes, int tam){
         cout << "Digite o nome: " << endl;
         cin >> nomes[i];
     }
+
 }
 
 void Deleta(string *nomes){
@@ -15,11 +16,13 @@ void Deleta(string *nomes){
     cout << "Digite o indice que voce deseja excluir: " << endl;
     cin >> deleta;
     nomes[deleta].clear();
+
 }
 
 void Substitui(string *nomes, int substitui){
 
     nomes[substitui].replace(0,nomes[substitui].length(),"Neymar");
+
 
 }
 
@@ -31,6 +34,7 @@ void ImprimeNome(string *nomes){
     cout << "Digite o nome nome a ser cadastrado: " << endl;
     cin >> NovoNome;
     nomes[Imprime].replace(0,nomes[Imprime].length(),NovoNome);
+
 
 }
 

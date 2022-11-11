@@ -6,8 +6,11 @@ using namespace std;
 void Insere(int *Memoria, int Local, int num){
 
     Memoria[Local] = num;
+
 }
 
 int BuscaValor(int *Memoria, int Local){
     return Memoria[Local];
+
+    delete  Memoria;
 }

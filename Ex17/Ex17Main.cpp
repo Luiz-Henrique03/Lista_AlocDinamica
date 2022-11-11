@@ -32,5 +32,6 @@ int main(){
   for(int i = 0; i < vetor.size(); i++){
     cout << vetor[i] << endl;
   }
+  
   return 0;
 }

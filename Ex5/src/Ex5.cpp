@@ -8,6 +8,7 @@ void PreencheVetor(int *vetor, int tamanhovetor){
       vetor[i] = i;
    }
 
+
 }
 
 int QtdMultiplo(int *vetor, int tamanhovetor, int X){
@@ -18,5 +19,7 @@ int QtdMultiplo(int *vetor, int tamanhovetor, int X){
         QtdMultiplo++;
       }
    }
+   return QtdMultiplo;
+   delete  vetor;
 
 }

@@ -71,6 +71,8 @@ float Produto::MaiorPreco(Produto *produtos, int n){
       }
 
       return Maiorpreco;
+
+      delete produtos;
 }
 
 int Produto::MaiorEstoque(Produto *produtos, int n){
@@ -83,5 +85,7 @@ int Produto::MaiorEstoque(Produto *produtos, int n){
       }
 
       return Maiorestoque;
+
+      delete produtos;
 }
 

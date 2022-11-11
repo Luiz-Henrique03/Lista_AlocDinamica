@@ -18,5 +18,13 @@ TEST(testProdutoMatriz, testProdutoMatriz){
 
     EXPECT_EQ(Produto(Matriz,Matriz1,MatrizProd),ProdutoTotalEsperado);
 
+    if (a) delete [] Matriz[0];
+    delete [] Matriz;
+
+    if (c) delete [] Matriz1[0];
+    delete [] Matriz1;
+
+    if (c) delete [] MatrizProd[0];
+    delete [] MatrizProd;
 }
   

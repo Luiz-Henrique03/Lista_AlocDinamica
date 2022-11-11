@@ -19,4 +19,6 @@ int main(){
    PreencheVetor(vetor,TAMANHO);
 
    cout << QtdMultiplo(vetor,TAMANHO,X);
+
+   delete [] vetor;
 }

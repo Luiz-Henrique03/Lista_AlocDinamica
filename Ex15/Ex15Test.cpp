@@ -18,4 +18,6 @@ TEST(testMaiores, testMaiores){
 
    EXPECT_EQ(*maiores,*maioresEsperado);
 
+   delete [] maiores;
+
 }

@@ -14,5 +14,7 @@ int estaContido(int elemento, int **matriz, int numLin, int numCol) {
 	}
 	
 	return 0;
+
+	delete  matriz;
 }
 

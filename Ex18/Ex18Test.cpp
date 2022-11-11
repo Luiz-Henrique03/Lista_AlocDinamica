@@ -16,4 +16,7 @@ TEST(testvetor1024Bytes,testvetor1024Bytes){
     Inicializavetor1024Kbytes(vet1024);
 
     EXPECT_EQ(sizeof(vet1024), sizeof(vetTest));
+
+    delete [] vet1024;
+    delete [] vetTest;
 }

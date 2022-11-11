@@ -28,4 +28,9 @@ int main(){
     char **Texto;
     InicializaChar(Texto);
 
+    delete [] vet1024;
+    delete [] matriz;
+    delete [] arrayProdutos;
+    delete [] Texto;
+
 }

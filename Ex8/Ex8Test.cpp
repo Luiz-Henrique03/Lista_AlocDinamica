@@ -23,4 +23,8 @@ TEST(testvetores10UltimosEprimeiros,testvetores10UltimosEprimeiros){
 
     EXPECT_EQ(*dezUltimos, *dezUltimosEsperados);
     EXPECT_EQ(*dezPrimeiros, *dezPrimeirosEsperados);
+
+    delete [] vetor;
+    delete [] dezUltimos;
+    delete [] dezPrimeiros;
 }

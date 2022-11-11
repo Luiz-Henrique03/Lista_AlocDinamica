@@ -9,5 +9,7 @@ TEST(testBuscaValor,testBuscaValor){
     Insere(Memoria, local, num);
     EXPECT_EQ(BuscaValor(Memoria,local), 10);
 
+        delete [] Memoria;
+
     
 }

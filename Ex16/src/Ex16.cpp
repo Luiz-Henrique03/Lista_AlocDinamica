@@ -22,6 +22,7 @@ void CriaMatriz(int **matriz, int numLin, int numCol,int **transposta){
 			 cin >> matriz[i][j];
 		}
 	}
+
 }
 
 void Transposta(int **matriz, int numLin, int numCol, int **transposta){
@@ -30,5 +31,6 @@ void Transposta(int **matriz, int numLin, int numCol, int **transposta){
             transposta[j][i] = matriz[i][j];
         }
     }
+
 }
 

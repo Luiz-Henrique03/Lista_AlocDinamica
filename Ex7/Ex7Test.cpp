@@ -20,4 +20,6 @@ TEST(testVerificaAcertos, testVerificaAcertos){
     VerificaAcertos(NumLoteria, NumBilhete, TAMANHO, Acertos, &certos);
     EXPECT_EQ(certos,QtdCertosEsperada);
     EXPECT_EQ(*Acertos,*vetorEsperado);
+
+    delete  Acertos;
 }

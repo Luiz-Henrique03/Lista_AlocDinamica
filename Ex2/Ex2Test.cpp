@@ -7,9 +7,10 @@ dinamica de memoria. Em seguida, leia do usuario seus valores e imprima o vetor 
 TEST(testVetor,testVetor){
     const int TAMANHO = 6;
     int *vetor = new int(TAMANHO),
-         vetor[6] = {0,1,2,3,4,5};
+         vetor1[6] = {0,1,2,3,4,5};
 
     Preenche(vetor);
-    EXPECT_EQ(*vetor, *vetor);
+    EXPECT_EQ(*vetor, *vetor1);
 
+    delete [] vetor;
 }

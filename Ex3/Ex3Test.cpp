@@ -20,5 +20,7 @@ TEST(testVetor,testVetor){
 
     EXPECT_EQ(QtdImpar,QtdImparEsperado);
     EXPECT_EQ(QtdPar,QtdParEsperado);
+
+    delete [] vetor;
     
 }

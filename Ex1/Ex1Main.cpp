@@ -14,5 +14,5 @@ int main(){
     ListaVetor(vet);
 
 
-    delete vet;
+    delete [] vet;
 }

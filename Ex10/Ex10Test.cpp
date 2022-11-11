@@ -25,5 +25,7 @@ TEST(testVetorPrincipal, testVetorPrincipal){
 
    EXPECT_EQ(vetorPrincipal[0], vetorValAleatorios[0]);
    EXPECT_EQ(vetorPrincipal[1], vetorValAleatorios[1]);
+
+   delete [] vetorPrincipal; 
    
 }
