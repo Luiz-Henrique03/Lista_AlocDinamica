@@ -21,5 +21,5 @@ TEST(testVerificaAcertos, testVerificaAcertos){
     EXPECT_EQ(certos,QtdCertosEsperada);
     EXPECT_EQ(*Acertos,*vetorEsperado);
 
-    delete  Acertos;
+    delete [] Acertos;
 }

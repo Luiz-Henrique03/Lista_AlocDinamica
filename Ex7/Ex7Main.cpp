@@ -19,6 +19,6 @@ int main(){
     VerificaAcertos(NumLoteria, NumBilhete, TAMANHO, Acertos, &certos);
     Imprime(Acertos,certos);
 
-    delete  Acertos;
+    delete [] Acertos;
 
 }

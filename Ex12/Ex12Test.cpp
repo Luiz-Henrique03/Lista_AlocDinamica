@@ -24,7 +24,7 @@ using namespace std;
 
 TEST(testMaiorEstoque,testMaiorEstoque){
     int n;
-    Produto arrayProdutos[2] = {};
+    Produto arrayProdutos[2] = new Produto();
     float MaiorPreco,
           MaiorPrecoEsperado = 50.90
 
@@ -39,5 +39,7 @@ TEST(testMaiorEstoque,testMaiorEstoque){
     
 
     EXPECT_EQ(MaiorPreco, MaiorPrecoEsperado);
+
+    delete [] arrayProdutos;
 
 }
